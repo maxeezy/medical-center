@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -20,9 +21,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
 }
 
 .nav-link{
@@ -31,6 +29,9 @@ header{
     line-height: 25px;
     text-decoration:  none;
     margin-left: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
 }
 .nav-link:first-child{
     margin-left: 0;
@@ -43,4 +44,45 @@ header{
 .header-bottom{
     display: flex;
     justify-content: space-between;
+    background-image: url('../img/women.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    min-height: 80vh;
+}
+.header-bottom-left{
+    margin-top: 175px;
+}
+.header-title{
+    color: #2E3E7B;
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.white{
+    color: white;
+}
+.header-offer{
+    font-size: 24px;
+    font-weight: 500;
+    color: #233060;
+    margin-bottom: 40px;
+    max-width: 676px;
+}
+
+.header-button{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+}
+.header-button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: #233060;
+    width: max-content;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
 }
